@@ -91,7 +91,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "const $TM_FILENAME_BASE = () => {",
+      "const $TM_FILENAME_BASE: React.FunctionComponent<{ name: string }> = ({ name }) => {",
       "\treturn (",
       "\t\t<div>",
       "\t\t\t$1",
