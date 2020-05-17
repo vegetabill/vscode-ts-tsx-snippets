@@ -1,4 +1,12 @@
 {
+  "Print to console": {
+    "prefix": "csl",
+    "body": [
+      "console.log('$1 => ', $1);",
+      "$2"
+    ],
+    "description": "Bill's custom log output to console"
+  },
   "import": {
     "prefix": "imp",
     "body": "import ${2:name} from '${1:module}';$0"
